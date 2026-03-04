@@ -27,6 +27,12 @@ export default function Home() {
             >
               Testimonials
             </a>
+            <a
+              href="#Contact"
+              className="hover:text-yellow-500 transition"
+            >
+              Contact
+            </a>
           </div>
         </div>
       </nav>
@@ -185,7 +191,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="relative h-64 w-full rounded-xl overflow-hidden border border-zinc-800">
   <img
-    src="https://t4.ftcdn.net/jpg/08/41/88/55/360_F_841885510_SqTTRFiJBS4S77zG5pQUVgKkzKZjOPrV.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlie9HdJYx86fePdCYO9bDMq9f9kNmDHNxhA&s"
     alt="Transformation"
     className="absolute inset-0 w-full h-full object-cover"
   />
@@ -194,7 +200,7 @@ export default function Home() {
 
             <div className="relative h-64 w-full rounded-xl overflow-hidden border border-zinc-800">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjvPblenrrgE-IeEkI3lAXoJbHyycxFj7mA&s"
+    src="https://t3.ftcdn.net/jpg/07/18/46/14/360_F_718461452_HE9cXmauaNQeiRRzEX1ngjSm3ZE02ouT.jpg"
     alt="Transformation"
     className="absolute inset-0 w-full h-full object-cover"
   />
@@ -203,7 +209,7 @@ export default function Home() {
             
             <div className="relative h-64 w-full rounded-xl overflow-hidden border border-zinc-800">
   <img
-    src="https://media.istockphoto.com/id/514518416/photo/tracking-her-progress.jpg?s=612x612&w=0&k=20&c=brCYthdPZk-A9LN8NNbfzJFwg5iGKPF-CKI6obS86zY="
+    src="https://media.istockphoto.com/id/521787663/photo/feeling-fine-and-looking-great.jpg?s=612x612&w=0&k=20&c=292LmRTX3J9wWqrdeAOGX0YUGrLktemBLjKIgsjsQko="
     alt="Transformation"
     className="absolute inset-0 w-full h-full object-cover"
   />
@@ -261,17 +267,38 @@ export default function Home() {
         </div>
       </section>
 
+
+
+
       {/* footer  */}
       <footer
         id="footer"
         className="bg-zinc-950 border-t border-zinc-800 py-10 text-center text-gray-500"
       >
+        
+{/* contact  */}
+
+      <section id="Contact" className="py-24 px-6 bg-zinc-950 text-left " >
+        <p>Power Fitness Gym, Central Park, Love You City, India</p>
+        <p>+91 (790) 676-6313</p>
+        <br />
+        <hr />
+        <a href="#contact">
+  <button className="bg-yellow-500 text-black px-6 py-3 mt-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+    Join Now
+  </button>
+</a>
+
+    </section>
+
+
+
         <p>© 2026 PowerZone Fitness. All Rights Reserved.</p>
-        <p className="mt-2 text-sm">Designed & Developed by Ameer Alam</p>
+        <p className="mt-2 text-sm">Designed & Developed by <a href="https://www.linkedin.com/in/ameer-alam-aron-9a66317b/" target="_blank">Ameer Alam</a></p>
       </footer>
 
       <a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/917906766313"
         target="_blank"
         className="fixed bottom-6 right-6 bg-yellow-500 text-black px-5 py-3 rounded-full font-semibold shadow-lg hover:bg-yellow-400 transition"
       >
